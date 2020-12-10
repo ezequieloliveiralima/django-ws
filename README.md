@@ -6,6 +6,7 @@ To run:
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+uvicorn websocket_app.asgi:application
 ```
 
 Enjoy, I hope this can help all of you.
